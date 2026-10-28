@@ -5,10 +5,37 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fjgaP7-qdc4a_m7sGcAv-1" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;labelPerimeter=1;rotation=90;" value="" vertex="1">
-          <mxGeometry height="30" width="60" x="165" y="485" as="geometry" />
+          <mxGeometry height="30" width="60" x="15" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-12" edge="1" parent="1" source="fjgaP7-qdc4a_m7sGcAv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="vD7-fGRVkOh0Us2W2AeA-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fjgaP7-qdc4a_m7sGcAv-2" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc3;labelPerimeter=1;rotation=90;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="110" y="280" as="geometry" />
+          <mxGeometry height="30" width="30" x="170" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-1" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="10" width="70" x="230" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-11" edge="1" parent="1" source="vD7-fGRVkOh0Us2W2AeA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-3" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc1;labelPerimeter=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="300" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-8" edge="1" parent="1" source="vD7-fGRVkOh0Us2W2AeA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;startArrow=none;startFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-17" parent="1" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;labelPerimeter=1;rotation=90;" value="" vertex="1">
+          <mxGeometry height="50" width="70" x="285" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="vD7-fGRVkOh0Us2W2AeA-18" edge="1" parent="1" source="vD7-fGRVkOh0Us2W2AeA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" x="-0.0204" as="geometry">
+            <mxPoint x="320" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
