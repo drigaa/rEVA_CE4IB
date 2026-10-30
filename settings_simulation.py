@@ -1,5 +1,5 @@
 controller = True
-Kp_value = 1e4 ## perfect would be inf
+Kp_value = 1e3 ## perfect would be inf
 
 imposed_time_step = False
 Δt = 240
@@ -17,7 +17,7 @@ air_with_capacity = False
 ## Overwrite for steady state analysis
 To_ss = 10
 Ti_sp_ss = 21
-Qa_ss = 10
+Qa_ss = 25
 
 ## Wall settings
 slope = 90
