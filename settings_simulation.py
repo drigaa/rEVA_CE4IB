@@ -1,5 +1,5 @@
 controller = True
-Kp_value = 150 ## perfect would be inf
+Kp_value = 75 ## perfect would be inf
 
 imposed_time_step = True
 Δt = 240
@@ -15,7 +15,7 @@ end_date = '2000-' + end_date
 ## Overwrite for steady state analysis
 To_ss = 10
 Ti_sp_ss = 25
-Qa_ss = 0
+Qa_ss = 10
 
 
 
