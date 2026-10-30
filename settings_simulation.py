@@ -6,6 +6,7 @@ imposed_time_step = False
 
 temp_init = 21
 temp_indor_setpoint = 21
+Qa = 20
 
 start_date = '01-01 12:00:00'
 end_date = '09-30 18:00:00'
@@ -21,12 +22,14 @@ Qa_ss = 25
 
 ## Wall settings
 slope = 90
-azimuth = -90
+azimuth_east = -90
+azimuth_north = 180
 latitude = 46
 wall_area = 9
 albedo = 0.2
 alpha = 0.25
-
+beta_window = 0.8
+view_factor = 0.2
 
 if __name__ == '__main__':
     print(f'{start_date} \tstart date')
